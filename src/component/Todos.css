@@ -1,0 +1,47 @@
+.buttonClear {
+  float: right;
+  color: black;
+  background-color: #ffffff;
+  border: none;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.buttonClear:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.7);
+  color: white;
+  background-color: red;
+}
+
+.addTask {
+  margin: 0 15px;
+  border: #000000;
+  padding: 10px;
+  font-size: 20px;
+  color: black;
+  background-color: #ffffff;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  margin-top: 15px;
+}
+
+.addTask:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.7);
+}
+
+.search-input {
+  width: 150px; /* Adjust the width as per your preference */
+  height: 30px; /* Adjust the height as per your preference */
+  padding: 5px;
+  border: 2px solid #000000; /* Pitch-dark border */
+  border-radius: 5px;
+  margin: 15px; /* Add margin for spacing from the top and left */
+  background-color: transparent; /* Transparent background */
+  color: #000000; /* Text color */
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}

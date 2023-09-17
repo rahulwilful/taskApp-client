@@ -1,0 +1,64 @@
+/* todoForm2.css */
+
+.container {
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.form {
+  background-color: #000000;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 4px rgba(255, 185, 34, 0.7);
+  padding: 40px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.input {
+  padding: 10px;
+  margin-bottom: 15px;
+  margin-left: 0;
+  margin-right: 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.2s;
+  font-size: 16px;
+  width: 100%;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.button {
+  background-color: transparent;
+  color: #fffefe;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 16px; /* Reduce padding from sides to adjust button size */
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: 0px 0px 4px 2px rgba(255, 185, 34, 0.7);
+  transition: transform 0.2s ease, box-shadow 0.5s ease;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #ffffff;
+  color: #000000;
+  transform: translateY(-3px);
+  box-shadow: 0px 0px 5px 5px rgba(255, 185, 34, 0.7);
+}
